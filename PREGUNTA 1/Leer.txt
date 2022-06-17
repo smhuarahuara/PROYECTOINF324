@@ -1,0 +1,6 @@
+Antes de ejecutar el codigo se debe ingresar 
+el siguiente sql en la base de datos academico:
+
+ALTER TABLE academico.alumno ADD enespera INT NOT NULL DEFAULT 1;
+ALTER TABLE academico.alumno ADD estado VARCHAR(30) NOT NULL;
+ALTER TABLE academico.alumno ADD nroboleta INT NOT NULL;
